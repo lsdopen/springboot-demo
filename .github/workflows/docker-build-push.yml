@@ -22,4 +22,4 @@ jobs:
         uses: docker/build-push-action@v4.1.1
         with:
           push: true
-          tag: ${{ github.ref_name }}
+          tags: lsdtrip/springboot-demo:${{ github.ref_name }}
